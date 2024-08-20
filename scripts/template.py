@@ -18,7 +18,7 @@ class ExtensionTemplateScript(scripts.Script):
         #
         # below code always show extension menu
         def show(self, is_img2img):
-                return is_img2img
+                return True
 
         # Setup menu ui detail
         def ui(self, is_img2img):
